@@ -6,4 +6,3 @@ if __name__ == '__main__':
     parser.add_argument('-o', '-output', help="Output video file")
     parser.add_argument('-fi', '-folder_input', help="Input folder")
     args = parser.parse_args()
-    print(args)
